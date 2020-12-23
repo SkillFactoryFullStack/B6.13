@@ -52,7 +52,7 @@ def find(artist):
 def save(year, artist, genre, name):
     # Checking the correctness of the input
     assert isinstance(year, int), "Invalid year"
-    assert isinstance(artist, str), "Incorrect performer"
+    assert isinstance(artist, str), "Incorrect artist"
     assert isinstance(genre, str), "Incorrect genre"
     assert isinstance(name, str), "Invalid album"
 
