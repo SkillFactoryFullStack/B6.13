@@ -16,8 +16,8 @@ def albums(artist):
     else:
         album_len = len(albums_list)
         album_names = [album.album for album in albums_list]
-        result = "Albums list {} ({}): ".format(artist, album_len)
-        result += ", ".join(album_names)
+        result = "Albums list {} ({}):<br>".format(artist, album_len)
+        result += "<br>".join(album_names)
     return result
 
 
